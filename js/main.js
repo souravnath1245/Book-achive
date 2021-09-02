@@ -55,10 +55,10 @@ const searchResult = (data) => {
           author_name ? author_name[0] : "Not Found"
         }</li>
         <li class="list-group-item">Publisher : ${
-          publisher ? publisher[0] : "----"
+          publisher ? publisher[0] : "Not found"
         }</li>
         <li class="list-group-item">${
-          first_publish_year ? first_publish_year : ""
+          first_publish_year ? first_publish_year : "---"
         }</li>
       </ul>
       
