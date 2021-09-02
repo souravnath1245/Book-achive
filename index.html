@@ -13,25 +13,21 @@
       crossorigin="anonymous"
     />
     <!-- Main Css Link  -->
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .result {
-        margin-top: 100px;
-        height: 500px;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
+    <style></style>
   </head>
   <body>
+    <!------------------------- Header Section Start -->
     <header>
       <div class="container">
+        <!-------------------- Search Field Start  -->
         <div>
           <div class="input-group mb-3 my-4 w-75 mx-auto">
             <input
               id="searchInput"
               type="text"
-              class="form-control "
-              placeholder="Search Your book"
+              class="form-control"
+              placeholder="Search Your Favourite Books. The Power of Habit."
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
             />
@@ -45,16 +41,23 @@
             </button>
           </div>
         </div>
-
+        <!--------------------- Search Field End  -->
+        <!--------------------- Search Element Number  -->
         <div class="searchItem">
           <span id="resultItem"></span>
         </div>
+        <!---------------------- Search Element Result  -->
         <div id="detailcard"></div>
       </div>
     </header>
+    <!-------------------------- Header Section End  -->
+    <!-------------------------- Main Section Start  -->
     <main>
-      <div id="searchResult" class="row justify-content-around align-items-center">
-
+      <div
+        id="searchResult"
+        class="row justify-content-around align-items-center"
+      >
+        <!-------------------------------------------- Extra work Using Table. Please Check. -->
         <!-- <table class="table table-striped table-hover">
           <thead>
             <tr>
@@ -66,14 +69,11 @@
             </tr>
           </thead>
           <tbody id="tableBody"></tbody>
-          
         </table> -->
-
-       
-         
-        
+        <!-------------------------------------------- Extra Work Using Table Please Check  -->
       </div>
     </main>
+    <!---------------------------- Main Section End  -->
 
     <!-- Bootstrap Js Link  -->
     <script

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.result {
+  margin-top: 100px;
+  height: 500px;
+}
+.spinner {
+  display: none;
+}
